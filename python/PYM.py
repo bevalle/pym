@@ -5,7 +5,7 @@ Created on Tue Jan 10 17:03:41 2017
 @author: valle
 """
 
-def PYM_image_transformation(original, filename): # calcul NDVI
+def PYM_image_transformation(original, filename): 
     "This function performs the PYM calculation and returns a new frame"
     h, w = original[:,:,0].shape # get original image shape
     pym = np.zeros((h, w),np.int) # blank b/w image for storing pym image
